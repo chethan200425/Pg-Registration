@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background: url(download.jpg);" >
+     
+        <div id="login" >
+            <center><h1 style="color: black;">Admin Login</h1></center>
+            <form onsubmit="return myfunction()" name="loginpag" method="get" action="#">
+                <table>
+                    <tr>
+                        <td><label for="username">Username:</label></td>
+                        <td><input id="username" type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td><lable for="password">Password:</lable></td>
+                        <td><input id="password" type="password"/></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <br>
+                        <td colspan="2"><input name="submit" type="submit"/><input type="reset"/><button type="submit" style="font-size: 20px;">
+                            <a href="index.html"
+                            target="_blank"
+                            title="Home">
+                          Back to home
+                        </a>
+                        </button></td>
+                    </tr>
+                </table>
+
+            </form>
+
+        </div>
+
+
+        <script>
+            confirm("Do you want to login")
+            document("hello world")
+            function myfunction() {
+                
+                var use = document.getElementById("username").value;
+                var pas = document.getElementById("password").value;
+                
+                if (use === "chethan" && pas === "1234") {
+                    alert("Login successful!");
+
+                    
+                    window.location.href = "detail.html";
+                    return false;  
+                } else {
+                    alert("Wrong entry, try again");
+                    return false;  // Prevent form submission
+                }
+                
+            }
+        </script>
+    </body>
+</html>
