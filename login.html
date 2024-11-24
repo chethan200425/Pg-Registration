@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -59,3 +60,60 @@
         </script>
     </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="body2">
+        <div class="love">
+            <center> 
+            <br><br>
+            <form onsubmit="return myfunction()">
+                <div class="love1">
+                    <label style="font-size: 25px;" > Username:</label>
+                    <input type="text" id="username"  style="height: 20px;">
+                
+                <br>
+                <br><br>
+                <label style="font-size: 25px;">Password:</label>
+                <input type="password" id="password"  style="height: 20px;">
+                <br>
+                <br>
+                <button type="submit" style="font-size: 20px;">
+                    Login
+                </button>
+                <button type="submit" style="font-size: 20px;">
+                    <a href="index.html"
+                    target="_blank"
+                    title="Home">
+                  Back to home
+                </a>
+                </button>
+                </div>
+            </form>
+            </center>
+        </div>
+
+        <script>
+            function myfunction() {
+                var use = document.getElementById("username").value;
+                var pas = document.getElementById("password").value;
+                
+                if (use === "chethan" && pas === "1234") {
+                    alert("Login successful!");
+
+                    
+                    window.location.href = "detail.html";
+                    return false;  
+                } else {
+                    alert("Wrong entry, try again");
+                    return false;  // Prevent form submission
+                }
+            }
+        </script>
+    </body>
+</html>
+>>>>>>> 5c83eece2043b44828506a7323db64a7ef6de35b

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -163,3 +164,124 @@ select{
     background: rgba(0, 0, 0, 0.5);
     z-index: 999;
 }
+=======
+.body2{
+    background-image: url("download.jpg");
+}
+h1{
+    color: blue;
+}
+.add{
+    color: white;
+}
+#p1{
+    color: blue;
+}
+#ge{
+    color: palevioletred;
+    margin-right: 3em;
+}
+
+#ok{
+}
+label {
+    color: pink;
+}
+#dk{
+    color: brown;
+}
+#fk{
+    background-color: black;
+    color: white;
+    border-radius: 2pt;
+    box-shadow: 1ch;
+    
+}
+.love{
+    width: 500px;
+    height: 400px;
+    border: solid black;
+    background-image: url("images.jpg");
+    transform: translateY(200px ) translate(550px);
+  
+   
+}
+
+#body1{
+  
+  background-image: url(images.jpg);
+
+}
+h2{
+    color: rgb(81, 255, 0);
+    
+}
+.navi{
+    width: 500px;
+    height: 200px;
+    border: solid black;
+    list-style-type: none;
+    padding: 15px;
+    transform: translateX(550px);
+   
+    
+    overflow: hidden;
+    
+
+
+}
+.navi a{
+    color:white;
+    font-size: larger;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+    font-size: 1em;
+
+}
+.navi a:hover{
+    background-color: rgb(32, 34, 34);
+}
+#b {
+    background-color: #0ba325;
+    border-color: blue;
+    border-style: double;
+    padding: 1px;
+    margin-top: 3em;
+   
+    
+}
+.sr{
+    margin-top: 3em;
+}
+.love1{
+    
+ transform: translateY(50px);
+    
+
+}
+.love #bk{
+    
+    background-color:rgb(96, 102, 15);
+    font-size: large;
+    color: rgb(202, 97, 10);
+    text-align: center;
+    background-color: rgb(148, 255, 127);
+    margin-bottom: 5em;
+     
+    
+}
+.rebackground {
+    width: 500px;
+    height: 500px;
+    border: solid black;
+    background-image: url("images.jpg");
+}
+.bagcolor{
+    background-image: url("download.jpg");
+}
+.firstname{
+   transform: translateY(100px);
+}
+>>>>>>> 5c83eece2043b44828506a7323db64a7ef6de35b
